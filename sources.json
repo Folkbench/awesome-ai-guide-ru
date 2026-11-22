@@ -1,0 +1,49 @@
+{
+  "verified_date": "2026-11-23",
+  "verification_timezone": "Asia/Shanghai (UTC+8)",
+  "method": "Read-only official webpage retrieval; no account creation, payment or API tests",
+  "sources": [
+    {
+      "id": "OAI-REGIONS",
+      "url": "https://help.openai.com/en/articles/7947663-chatgpt-and-openai-api-supported-countries-and-territories",
+      "title": "ChatGPT and OpenAI API supported countries and territories",
+      "supports": "Россия отсутствует; доступ вне списка может привести к блокировке.",
+      "status": "official_page_read"
+    },
+    {
+      "id": "OAI-CARDS",
+      "url": "https://help.openai.com/en/articles/7232916-why-was-my-credit-card-declined",
+      "title": "Why was my credit card declined?",
+      "supports": "Проверять регион клиента и банка; prepaid не принимаются для API-кредитов.",
+      "status": "official_page_read"
+    },
+    {
+      "id": "OAI-BILLING",
+      "url": "https://help.openai.com/en/articles/9039756-billing-settings-in-chatgpt-vs-platform",
+      "title": "Managing billing for ChatGPT and the API platform",
+      "supports": "Биллинг ChatGPT и API раздельный; промокредиты не универсальны.",
+      "status": "official_page_read"
+    },
+    {
+      "id": "ANT-REGIONS",
+      "url": "https://www.anthropic.com/legal/supported-regions",
+      "title": "Supported Regions Policy",
+      "supports": "Действует с 2026-11-12; Россия отсутствует; охватывает приложения/API/авторизованных реселлеров и ограничения организаций.",
+      "status": "official_page_read"
+    },
+    {
+      "id": "ANT-PRO",
+      "url": "https://support.claude.com/en/articles/8325609-how-do-i-sign-up-for-the-pro-plan",
+      "title": "How do I sign up for the Pro plan?",
+      "supports": "Физический поддерживаемый регион и номер; бесплатная версия не исключение; автопродление.",
+      "status": "official_page_read"
+    },
+    {
+      "id": "ANT-BILLING",
+      "url": "https://support.claude.com/en/articles/8325618-paid-plan-billing-faqs",
+      "title": "Paid plan billing FAQs",
+      "supports": "Веб-подписки: credit/debit; магазины имеют свои способы; API-кредиты проверять в Console.",
+      "status": "official_page_read"
+    }
+  ]
+}
